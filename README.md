@@ -122,7 +122,7 @@ Facebook-User-Segmentation/
 ├── Face Book data.ipynb
 ├── app.py
 ├── facebook_segmentation_pipeline.pkl
-├── pseudo_facebook.csv
+├── facebook_data.csv
 ├── requirements.txt
 └── README.md
 ```
@@ -134,7 +134,7 @@ Facebook-User-Segmentation/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Facebook-User-Segmentation.git
+git clone https://github.com/shifanacc/Facebook-User-Segmentation.git
 ```
 
 ### Install dependencies
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 ### Run the Streamlit application
 
 ```bash
-streamlit run app.py
+streamlit run fb_app.py
 ```
 
 ---
@@ -157,15 +157,15 @@ streamlit run app.py
 
 Example:
 
-https://your-app-name.streamlit.app
+https://facebook-user-segmentation-vdcdbuj3khqu2eon2hgsvt.streamlit.app/
 
 ---
 
 ## Project Workflow
 
 1. Data Collection
-2. Exploratory Data Analysis (EDA)
-3. Data Cleaning & Preprocessing
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
 4. Feature Scaling
 5. K-Means Clustering
 6. Hierarchical Clustering
